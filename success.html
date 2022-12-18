@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <div class="success" id="success"><h2> Login successfuly !</h2></div>
+    
+    <div style="text-align: center; font-size: x-large;">
+        Congratulation!
+        <span id="Fname" class="form-control"></span> 
+        <span id="Mname" class="form-control"></span>
+        <span id="Lname" class="form-control"></span> <br>
+        </div>
+        <hr>
+        <table>
+            <tr><!--that is id section-->
+                <td>ID:</td><td><span id="Id" class="form-control"></span></td>
+            </tr>
+            <tr><!--that is date of birth section-->
+                <td>Date of birth:</td><td><span id="dob" class="form-control"></span></td>
+            </tr>
+            <tr><!--that is qualification section-->
+                <td>Highest-Qualification:</td><td><span id="inputQualification" class="form-select"></span></td>
+            </tr>
+            <tr><!--that is experience sction-->
+                <td>Experience:</td><td><span id="experience" class="experience"></span></td>
+            </tr>
+            <tr><!--that is company section-->
+                <td>Last Company:</td><td><span id="Id" class="form-control"></span></td>
+            </tr>
+            <tr><!--that is salary section-->
+                <td>Last Salary:</td><td><span id="Id" class="form-control"></span></td>
+            </tr>
+            <tr><!--that is city section-->
+                <td>City:</td><td><span id="Id" class="form-control"></span></td>
+            </tr>
+            <tr><!--that is Department section-->
+                <td>Department:</td><td><span id="Id" class="form-control"></span></td>
+            </tr>
+
+        </table>
+    </div> 
+</body>
+<script >
+ 
+//for first name
+    a=localStorage.getItem("Fname");
+    document.getElementById("Fname").innerText= a;
+
+    //for last name
+    b=localStorage.getItem("Lname");
+    document.getElementById("Lname").innerText= b;
+    //for middle name
+    c=localStorage.getItem("Mname");
+    document.getElementById("Mname").innerText=c;
+
+    I=localStorage.getItem("dob");
+    document.getElementById("dob").innerText=I;
+
+
+    //d=localStorage.getItem("inputQualification");
+    //document.getElementById("inputQualification").innerText= d;
+
+    // =localStorage.getItem("address");
+    // document.getElementById("address").innerText= d;
+
+
+    e=localStorage.getItem("experience");
+    document.getElementById("experience").innerText= e;
+
+
+    //g=localStorage.getItem("exprence");
+    //document.getElementById("exprence").innerText= g;
+
+    //h=localStorage.getItem("last_company");
+    //document.getElementById("last_company").innerText= h;
+
+    
+    //f=localStorage.getItem("last_salery");
+    //document.getElementById("last_salery").innerText= f;
+
+    // i=localStorage.getItem("city");
+    // document.getElementById("city").innerText= i;
+
+    //j=localStorage.getItem("department");
+    //document.getElementById("department").innerText= j;
+
+
+    //k=localStorage.getItem("designation");
+    //document.getElementById("designation").innerText= k;
+    </script>
+
+</html>

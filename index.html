@@ -1,0 +1,168 @@
+<!DOCTYPE html><!--ye main page hai theek hai-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="formstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">CANDIDATE REGISTRATION FORM</div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--main form started here -->
+      <div class="container">      
+          <form action="success.html" class="row g-3">
+            <div class="col-md-4">
+              <label for="Id" class="inputId">Candidate ID:</label>
+              <!--auto generated id -->
+              <input type="text" class="form-control" id="Id">
+            </div>
+            <div class="col-md-8">
+              <!--add text later-->
+            </div>
+              <div class="col-md-4">
+                  <label for="inputName" class="F_Name" id="F_name">First Name:</label>
+                  <input type="text" class="form-control"id="Fname" placeholder="name" >
+              </div>
+              <div class="col-md-4">
+                  <label for="inputName" class="M_name" id="M_name">Middle name</label>
+                  <input type="text" class="form-control" id="Mname" placeholder="name">
+              </div>
+              <div class="col-md-4">
+                <label for="inputName" class="L_name" id="L_name">Last name</label>
+                <input type="text" class="form-control" id="Lname" placeholder="name">
+            </div>
+            <div class="col-md-4">
+                <label for="inputdob" class="dob1" id="dob1">Date of birth</label>
+                <input type="date" class="form-control" id="dob">
+            </div>
+            <div class="col-md-4">
+                <label for="inputAddress" class="address" id="Address">Address 1</label>
+                <input type="text" class="form-control" id="Address" placeholder="Parmanent Address">
+            </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-4">
+            <label for="inputQualification" class="form-label">Highest-Qualification </label>
+            <select id="inputQualification" class="form-select">
+                <option selected>Choose...</option>
+                <option>intermediate</option>
+                <option>B.tech</option>
+                <option>M.tech</option>
+                <option>Diploma</option>
+                <option>Post graduation</option>
+                <option>graduation</option>
+              </select>
+        </div>
+        <div class="col-md-4">
+        <label for="inputExperience" class="form-label">Experience</label>
+        <select id="experience" class="form-select">
+            <option selected>Choose...</option>
+            <option>0 to 1 yr.</option>
+            <option>1 to 2yr.</option>
+            <option>2 to  3yr.</option>
+            <option>3 to 4yr.</option>
+            <option>4 to 5yr.</option>
+            <option>5 to 6yr.</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+            <label for="Lcompany" class="form-label">Last Company</label>
+            <input type="text" id="Lcompany" class="form-control" placeholder="last company">
+        </div>
+        <div class="col-md-6">
+            <label for="inputSalary" class="form-label">Last salary</label>
+            <input type="text" id="Lsalary" class="form-control" placeholder="Salary">
+        </div>
+        <div class="col-md-6">
+            <label for="Department" class="form-label">Department</label>
+            <select id="Department" class="form-select">
+                <option selected>Choose...</option>
+                <option>computer Science</option>
+                <option>Machanical </option>
+                <option>Civil</option>
+                <option>Diploma</option>
+                <option>Technical</option>
+                <option>Rgidtrar</option>
+              </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              i,confirm are given information are valid!
+            </label>
+          </div>
+        </div>
+        <div class="col-6"><!--and here is button of move the next page -->
+          
+        </div>
+        <div class="col-md-6">
+          <!--and here must be create id and onclick function -->
+            <button type="submit" class="btn btn-primary" id="submit" value="submit form" onclick="next()">submit</button>
+        </div>
+        
+      </form>
+    </div>
+    <script src="jsform.js"></script>
+    <a href="success.html">submit info</a>
+</body>
+</html>

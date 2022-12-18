@@ -1,0 +1,64 @@
+body{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    font-weight: 100;
+    font-family: serif;
+    font-variant-position: super;
+}
+.navbar{
+    border: 2px solid black;
+    font-weight: 100;
+    font-family: serif;
+    font-variant-position: super;
+}
+.header{
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    text-align: center;
+    text-decoration: solid;
+    text-transform: inherit;
+    text-shadow: 50px solid black;
+    animation-name: inherit;
+}
+.col-2{
+    border: none;
+    border-block-end-color: aqua;
+
+}
+.box{
+    
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+.container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+span {
+  content: "\2190";
+}
+.success{
+    width:100% ;
+    text-align: center;
+}
+.col-md-6{
+    padding: 0;
+    list-style-type: none;
+}
+#submit{
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgb(60 106 218 / 39%);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+}
